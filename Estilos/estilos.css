@@ -12,12 +12,13 @@
 
 /* ===== Variables de color y tipografía ===== */
 :root {
-    --color-primario: #1B1E24;    /* fondo general */
-    --color-superficie: #24272E;  /* fondo de tarjetas */
-    --color-secundario: #F1EFEA;  /* texto claro */
-    --color-texto-suave: #ABAEB8; /* texto secundario, aún legible */
-    --color-borde: #383B44;       /* líneas y bordes */
-    --color-acento: #8B5CF6;      /* morado de acento */
+    --color-primario: #1B1E24;
+    --color-superficie: #24272E;
+    --color-secundario: #F1EFEA;
+    --color-texto-suave: #ABAEB8;
+    --color-borde: #383B44;
+    --color-acento: #8B5CF6;
+    --color-acento-claro: #A377FF;  
 
     --fuente-titulos: 'Titillium Web', sans-serif;
     --fuente-texto: 'Source Sans 3', sans-serif;
@@ -245,11 +246,7 @@ a:hover {
     }
 }
 
-/* ===== Variable extra para estados hover/focus ===== */
-/* (agregala dentro de tu bloque :root ya existente) */
-/* --color-acento-claro: #A377FF; */
-
-/* ===== Ajustes para que Bootstrap respete la paleta ===== */
+/* ===== Ajustes de Bootstrap ===== */
 .navbar.encabezado {
     background-color: var(--color-superficie);
     border-bottom: 3px solid var(--color-acento);
@@ -286,7 +283,7 @@ a:hover {
 }
 
 .navbar-toggler:focus {
-    box-shadow: 0 0 0 0.2rem rgba(139, 92, 246, 0.5);
+    box-shadow: 0 0 0 0.2rem #8b5cf680;
 }
 
 /* ===== Botón propio (ej. "Conoce más" en el hero) ===== */
@@ -341,7 +338,7 @@ a:hover {
 
 /* ===== Carousel: estilo propio ===== */
 .carousel-caption {
-    background-color: rgba(27, 30, 36, 0.75);
+    background-color: #1b1e24bf;
     border-radius: 4px;
     padding: 1rem;
 }
@@ -357,5 +354,6 @@ a:hover {
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.6));
+    filter: drop-shadow(0 0 3px #00000099);
 }
+
