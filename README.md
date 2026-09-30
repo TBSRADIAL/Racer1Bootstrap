@@ -4,7 +4,7 @@ Sitio informativo sobre el mundo de la Fórmula 1: escuderías, reglamento, cale
 
 ## Demo
 
-Una vez publicado con GitHub Pages, el sitio queda disponible en:
+Una vez publicado con GitHub Pages, el sitio quedara disponible en:
 `https://<tu-usuario>.github.io/<nombre-del-repo>/`
 
 ## Tecnologías utilizadas
